@@ -6,7 +6,7 @@ const static int BUZZER = 3;
 const static int FIRST_LED = 4;
 const static int LAST_LED = 13;
 const static int LED_COUNT = 1 + LAST_LED - FIRST_LED;
-const static unsigbned long DEBOUNCE_DELAY = 50;
+const static unsigned long DEBOUNCE_DELAY = 50;
 
 const unsigned long DELAY = 500;
 
