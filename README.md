@@ -9,6 +9,12 @@
 7. **Light**: Gebruikt een lichtgevoelige weerstand om de snelheid van de cyclus te regelen
 8. **Tilt**: Gebruikt de tilt sensor om de richting te bepalen van de beweging. 
 
+#Pins
+1. Led + resistor op pins 4-13
+2. Buzzer op pin 3
+3. Tilt op pin 2
+4. Light dependent resistor op pin A0
+
 #Concepten
 
 ## AllOn
