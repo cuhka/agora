@@ -12,8 +12,8 @@
 #Pins
 1. Led + resistor op pins 4-13
 2. Buzzer op pin 3
-3. Tilt op pin 2
-4. Light dependent resistor op pin A0
+3. Tilt + pulldown op pin 2
+4. Light dependent resistor + pulldown op pin A0
 
 #Concepten
 
