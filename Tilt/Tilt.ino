@@ -1,13 +1,9 @@
-
-
-
 const static int TILT_SENSOR = 2;
 const static int BUZZER = 3;
 const static int FIRST_LED = 4;
 const static int LAST_LED = 13;
 const static int LED_COUNT = 1 + LAST_LED - FIRST_LED;
 const static unsigned long DEBOUNCE_DELAY = 50;
-
 const unsigned long DELAY = 500;
 
 int direction = 1;
@@ -16,7 +12,6 @@ unsigned long nextTick = 0;
 int tiltState;
 int lastTiltState;
 unsigned long nextDebounceCheck = 0;
-
 
 void setup() {
   for (int pin = FIRST_LED; pin <= LAST_LED; pin++) {
@@ -29,8 +24,6 @@ void setup() {
 
   Serial.begin(9600);
 }
-
-
 
 void loop() {
   const unsigned long now = millis();
